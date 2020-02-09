@@ -1,0 +1,50 @@
+div.available {
+  position: relative;
+  display: inline-block;
+  
+}
+
+div.available input {
+  background: url('../../images/kursi.png') no-repeat;
+  cursor: pointer;
+  width: 42px;
+  height: 71px;
+  border: none;
+}
+
+div.disable {
+  position: relative;
+  display: inline-block;
+  
+}
+
+div.disable input {
+  background: url('../../images/kursi-disabled.png') no-repeat;
+  cursor: pointer;
+  width: 42px;
+  height: 71px;
+  border: none;
+}
+
+div.picked {
+  position: relative;
+  display: inline-block;
+  
+}
+
+div.picked input {
+  background: url('../../images/kursi-picked.png') no-repeat;
+  cursor: pointer;
+  width: 42px;
+  height: 71px;
+  border: none;
+}
+
+span.text {
+    font-size:20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
